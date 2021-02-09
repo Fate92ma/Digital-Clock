@@ -1,0 +1,83 @@
+/*
+
+Template Name: Digital Clock
+Template Url: https://fate92ma.github.io/Digital-Clock
+Contact Me: fatema131khaled@gmail.com
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box
+}
+
+body {
+    background: #008D9A;
+    font-family: "Montserrat"
+}
+
+/* Start Styling */
+
+#clock {
+    color: #F59878;
+    position: absolute;
+    border: 3px dashed;
+    width: fit-content;
+    padding: 5px 10px;
+    border-radius: 4px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 100px
+}
+
+@media (max-width: 550px) {
+    #clock {
+        font-size: 90px
+    }
+}
+
+@media (max-width: 500px) {
+    #clock {
+        font-size: 80px
+    }
+}
+
+@media (max-width: 450px) {
+    #clock {
+        font-size: 70px
+    }
+}
+
+@media (max-width: 400px) {
+    #clock {
+        font-size: 60px
+    }
+}
+
+@media (max-width: 350px) {
+    #clock {
+        font-size: 50px
+    }
+}
+
+@media (max-width: 300px) {
+    #clock {
+        font-size: 40px
+    }
+}
+
+/* End Styling */
