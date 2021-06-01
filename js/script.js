@@ -1,10 +1,10 @@
 // Variables
+
 let clock = document.getElementById("clock");
 
 // Events
-window.addEventListener("load", startTime);
 
-/**************************************************************************************************/
+window.addEventListener("load", startTime);
 
 // function to get time and display it 
 function showTime() {
@@ -28,11 +28,7 @@ function showTime() {
 
 }
 
-/**************************************************************************************************/
-
 // function to update time
 function startTime() {
     setInterval(showTime, 500)
 }
-
-/**************************************************************************************************/

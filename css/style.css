@@ -41,43 +41,23 @@ body {
     -moz-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    font-size: 100px
-}
-
-@media (max-width: 550px) {
-    #clock {
-        font-size: 90px
-    }
-}
-
-@media (max-width: 500px) {
-    #clock {
-        font-size: 80px
-    }
-}
-
-@media (max-width: 450px) {
-    #clock {
-        font-size: 70px
-    }
-}
-
-@media (max-width: 400px) {
-    #clock {
-        font-size: 60px
-    }
-}
-
-@media (max-width: 350px) {
-    #clock {
-        font-size: 50px
-    }
-}
-
-@media (max-width: 300px) {
-    #clock {
-        font-size: 40px
-    }
+    font-size: 10vw
 }
 
 /* End Styling */
+
+/* Start Media Query */
+
+@media (max-width: 1024px) {
+    #clock {
+        font-size: 14vw
+    }
+}
+
+@media (max-width: 768px) {
+    #clock {
+        font-size: 18vw
+    }
+}
+
+/* End Media Query */
